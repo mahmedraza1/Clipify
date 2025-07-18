@@ -1,0 +1,69 @@
+# Environment files - CRITICAL SECURITY
+.env
+.env.local
+.env.production
+.env.staging
+
+# API Keys and secrets - NEVER COMMIT
+*api_key*
+*secret*
+*.key
+*.pem
+
+# Temporary files
+temp-*
+*.tmp
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Video formats
+*.mp4
+*.mov
+*.avi
+*.wmv
+*.flv
+*.mkv
+*.webm
+*.m4v
+*.mpg
+*.mpeg
+*.3gp
+*.3g2
+*.ts
+*.vob
+*.ogv
+
+# Audio formats
+*.mp3
+*.wav
+*.ogg
+*.flac
+*.aac
+*.wma
+*.m4a
+*.aiff
+*.aif
+*.mid
+*.midi
+*.ra
+*.rm
+*.amr
+*.opus

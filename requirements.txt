@@ -1,0 +1,4 @@
+# Python dependencies for automation system
+requests>=2.31.0
+moviepy>=1.0.3
+langdetect>=1.0.9
